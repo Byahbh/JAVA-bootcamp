@@ -1,0 +1,27 @@
+package exec_sec4;
+
+import java.util.Scanner;
+
+public class Exercicio04 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int num, hora;
+		double horatrab, salario;
+		
+		num = sc.hashCode();
+		hora = sc.nextInt();
+		horatrab = sc.nextDouble();
+		
+		salario = horatrab * hora;
+		
+		System.out.println("O funcuionário nº%d + tem o salário de %f");
+		
+		
+
+	}
+
+}

@@ -1,0 +1,32 @@
+package exec_sec4;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Exercicio05 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		int cod1, cod2, qtde1, qtde2;
+		double valUni1, valUni2, total;
+		
+		cod1 = sc.nextInt();
+		qtde1 = sc.nextInt();
+		valUni1 = sc.nextDouble();
+		
+		cod2 = sc.nextInt();
+		qtde2 = sc.nextInt();
+		valUni2  =sc.nextDouble();
+		
+		total= qtde1 * valUni1 + qtde2 * valUni2;
+		
+		System.out.printf("VALOR A PAGAR DAS PEÇAS Nº%d e Nº%d são de: R$ %.2f%n", total);
+		
+		sc.close();
+
+	}
+
+}

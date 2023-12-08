@@ -1,0 +1,21 @@
+package sec4_aula23;
+
+
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		System.out.printf("products");
+		System.out.printf("%s, which price is $ %.2f%n", product1, price1);
+
+	}
+
+}
+
+
+/* %f = ponto flutuante
+   %d = inteiro
+   %s = texto
+   %n = quebra de linha  */

@@ -1,0 +1,28 @@
+package exec_sec4;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Exercicio05 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		int codPec, numPec;
+		double valUni, pagar;
+		
+		codPec = sc.nextInt();
+		numPec = sc.nextInt();
+		valUni = sc.nextDouble();
+		
+		pagar = valUni * numPec;
+		
+		System.out.println("VALOR A PAGAR: " + pagar);
+		
+		sc.close();
+
+	}
+
+}

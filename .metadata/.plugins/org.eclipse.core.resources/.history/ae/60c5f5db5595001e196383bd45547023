@@ -1,0 +1,30 @@
+package exec_sec4;
+
+import java.util.Scanner;
+
+public class Exercicio_01 {
+
+	private static int soma;
+
+	public static void main(String[] args) {
+		
+		@SuppressWarnings("resource")
+		Scanner sc = new Scanner(System.in);
+		
+		int numero1 = sc.nextInt();
+		int numero2 = sc.nextInt();
+		
+		
+		int soma = numero1 + numero2;
+			soma = numero1 * numero2;
+			soma = numero1 / numero2;
+		
+		System.out.println("Soma: " + soma);
+		
+		
+		
+
+
+	}
+
+}
