@@ -1,1 +1,1 @@
-# JAVA-bootcamp
+# JAVA-lessons
